@@ -28,7 +28,7 @@ const SeConnecter = () => {
     return (
         <Container maxWidth="xs">
             <Typography variant="h4" align="center">
-                SeConnecter
+                Se Connecter
             </Typography>
             <form onSubmit={handleSubmit}>
                 <TextField 
@@ -52,7 +52,7 @@ const SeConnecter = () => {
                     variant="outlined"
                 />
                 <Button type="submit" variant="outlined" color="primary" fullWidth>
-                    SeConnecter
+                    Se Connecter
                 </Button>
             </form>
         </Container>

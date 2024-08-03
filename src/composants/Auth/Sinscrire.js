@@ -61,7 +61,7 @@ const Sinscrire = () => {
                     variant="outlined"
                 />
                 <Button type="submit" variant="contained" color="primary" fullWidth>
-                    Register
+                    S'inscrire
                 </Button>
             </form>
         </Container>
