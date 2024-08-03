@@ -1,3 +1,41 @@
+Développement de l'application DevConnect, le réseau social par excellence des développeurs, 
+réalisé avec les technologies telles que HTML, CSS, Javascript, React, le coté base de données avec 
+MongoDB pour le gestion des utilisateurs et des autorisations, et l'intégration des réseaux sociaux.
+
+Ci-dessous une structure détaillée de notre application web:
+public/
+├──index.html
+src/
+├── components/
+│   ├── Auth/
+│   │   ├── Login.js
+│   │   └── Register.js
+│   ├── Layout/
+│   │   ├── Header.js
+│   │   └── Footer.js
+│   ├── Posts/
+│   │   ├── Post.js
+│   │   └── PostList.js
+│   ├── Profile/
+│   │   ├── Profile.js
+│   │   └── EditProfile.js
+│   └── SocialMedia/
+│       └── SocialMediaLinks.js
+├── pages/
+│   ├── Home.js
+│   ├── ProfilePage.js
+│   └── PostPage.js
+├── services/
+│   ├── authService.js
+│   └── postService.js
+├── App.js
+├── index.js
+├── styles.css
+README.md
+
+NB: Ce projet utilise le framework React pour le frontend, les bibliothèques Material-UI pour une interface utilisateur esthétique et ergonomique, et Axios pour les appels API. Les performances sont optimisées grâce au lazy loading et au code splitting.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
